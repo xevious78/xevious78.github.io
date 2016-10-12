@@ -8,36 +8,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="./css/bulma.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script src="./analytics.js"></script>    
+    <link rel="stylesheet" href="./css/animate.min.css" type="text/css">
+    <script src="./analytics.js" type="text/javascript">
+</script>
 </head>
 
 <body>
+    <nav class="nav has-shadow" style="position: fixed; clip:auto; top:0; left: 0; right: 0;">
+        <div class="container hero-body" style="padding-top: 10px; padding-bottom:10px;">
+            <div class="nav-left">
+                <a class="nav-item" href="#me"><b>About Me</b></a> <a target="_blank" class="nav-item" href="./cv.pdf">My Resume</a>
+            </div>
 
-            <section class="hero is-fullheight">
-                <div class="hero-body bg-black">
-                    <div class="container has-text-centered">
-                        <div class="title is-1 white norwester">
-                            Taleb, Aladin
-                        </div>
+            <div class="nav-right  is-hidden-mobile">
+                <a class="nav-item" href="#ease">EASE</a> <a class="nav-item" href="#sdl">The Lights' Show</a>
+            </div>
+        </div>
+    </nav><a class="anchor" id="me"></a>
 
-                        <div class="title is-4 orange norwester">
-                            Tech' Lover - UX Engineer
-                        </div>
-
-                        <div class="white">
-                            <div class="box" style="background-color: rgba(255, 255, 255, 0.2);">
-                                <p class="white norwester">I look for an <span class="orange">end-of-studies internship</span> in<br>
-                                - UX/UI Prototyping & development for Embedded Devices -<br>
-                                From <span class="orange">Feb. '17</span> to <span class="orange">Aug. '17</span></p>
-                            </div>Here are some interesting projects I had the chance to work on.<br>
-                            <br>
-                            You can also take a look at my <a href="./cv.pdf">resume</a> and my <a href="https://www.linkedin.com/in/aladin-taleb-23500274?locale=en_US&trk=profile_view_lang_sel_click">LinkedIn</a>.<br>
-                            <a href="mailto:aladin.taleb@gmail.com">Send me a message</a> if you think we can change the world together !
-                        </div>
-                    </div>
+    <section class="hero is-fullheight">
+        <div class="hero-body bg-black">
+            <div class="container has-text-centered animated bounceInUp">
+                <div class="title is-1 white norwester ">
+                    Taleb, Aladin
                 </div>
-            </section>
 
+                <div class="title is-4 orange norwester">
+                    Tech' Lover - UX Engineer
+                </div>
+
+                <div class="white">
+                    <div class="box" style="background-color: rgba(255, 255, 255, 0.2);">
+                        <p class="white norwester">I look for an <span class="orange">end-of-studies internship</span> in<br>
+                        - UX/UI Prototyping & development for Embedded Devices -<br>
+                        From <span class="orange">Feb. '17</span> to <span class="orange">Aug. '17</span></p>
+                    </div>Here are some interesting projects I had the chance to work on.<br>
+                    <br>
+                    You can also take a look at my <a target="_blank" href="./cv.pdf">resume</a> and my <a target="_blank" href="https://www.linkedin.com/in/aladin-taleb-23500274?locale=en_US&trk=profile_view_lang_sel_click">LinkedIn</a> page.<br>
+                    <a href="mailto:aladin.taleb@gmail.com">Send me a message</a> if you think we can change the world together !
+                </div>
+            </div>
+        </div>
+    </section><a class="anchor" id="ease"></a>
 
     <section class="hero is-fullheight">
         <div class="hero-body bg-white">
@@ -49,8 +61,10 @@
                 <hr>
 
                 <figure class="image"><img style="border-radius: 5px 25px 15px; width:auto; height: auto; display: block;" src="./projects/ease/ui_banner_4.png"></figure><br>
-                <iframe width="800" height="315" src="https://www.youtube.com/embed/NME6KZHsrYc" frameborder="0" allowfullscreen=""></iframe><br>
-                <br>
+
+                <div class="video-container">
+                    <iframe width="800" height="315" src="https://www.youtube.com/embed/NME6KZHsrYc" frameborder="0" allowfullscreen=""></iframe>
+                </div><br>
                 <br>
 
                 <div class="columns">
@@ -72,20 +86,21 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><a class="anchor" id="sdl"></a>
 
     <section class="hero is-fullheight">
         <div class="hero-body bg-light-gray">
             <div class="container">
                 <h1 class="title norwester">"The Lights' Show"</h1>
 
-                <h2 class="subtitle norwester">10 weeks to create a 50min Light & Music show on the walls of my <span class="orange">university</span>.</h2><a href="./projects/sdl.html">Read more !</a>
+                <h2 class="subtitle norwester">10 weeks to create a 50 minute-long Light & Music show on the walls of my <span class="orange">university</span>. (2015)</h2><a href="./projects/sdl.html">Read more !</a>
                 <hr>
-                
+
                 <figure class="image"><img style="border-radius: 5px 25px 15px; width:auto; height: auto; display: block;" src="./projects/sdl/light_patch_2_banner.png"></figure><br>
-                
-                <iframe width="800" height="315" src="https://www.youtube.com/embed/kTMwTURKoWU" frameborder="0" allowfullscreen=""></iframe><br>
-                <br>
+
+                <div class="video-container">
+                    <iframe width="800" height="315" src="https://www.youtube.com/embed/kTMwTURKoWU" frameborder="0" allowfullscreen=""></iframe>
+                </div><br>
                 <br>
 
                 <div class="columns">
