@@ -51,6 +51,21 @@ body {
 	max-width: 800px;
 }
 
-figure.image {
-	border-radius: 25px;
+a {
+	/*color: #19FEC5;*/
+	color: #30b7f6;
+
+}
+
+a:hover {
+	/*color: #19FEC5;*/
+	color: #3f86a7;
+	text-decoration: underline;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
