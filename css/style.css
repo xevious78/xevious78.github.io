@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Norwester'; /*a name to be used later*/
+    src: url('./css/norwester.otf'); /*URL to font*/
+}
+
+.norwester {
+	font-family: "Norwester"
+}
+
+body {
+	background-color: white;
+}
+
+
+.orange {
+	color: #F5A623;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: #3A3A3A;
+}
+
+
+.bg-black {
+	background-color: #3A3A3A; 
+}
+
+.bg-orange {
+	background-color: #F5A623; 
+}
+
+.bg-light-gray {
+	background-color: rgb(240, 240, 240); 
+}
+
+
+.bg-white {
+	background-color: white; 
+}
+
+.top-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 800px;
+}
+
+figure.image {
+	border-radius: 25px;
+}
