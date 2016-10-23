@@ -96,3 +96,13 @@ div.column {
 	 background-size: cover; 
 	 background-position: center;
 }
+.has-top-margin {
+	margin-top: 50px;
+}
+
+img.image {
+	border-radius: 5px 25px 15px; 
+	width:auto; 
+	height: auto; 
+	display: block;
+}
