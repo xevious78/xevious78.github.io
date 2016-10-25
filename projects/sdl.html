@@ -6,6 +6,8 @@
 
     <title>The Light's Show - Aladin Taleb's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+            <link rel="stylesheet" type="text/css" href="../css/prologue_main.css">
+
     <link rel="stylesheet" type="text/css" href="../css/bulma.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="../analytics.js" type="text/javascript">
@@ -13,36 +15,74 @@
 </head>
 
 <body>
-    <nav class="nav has-shadow" style="position: fixed; clip:auto; top:0; left: 0; right: 0;">
-        <div class="container hero-body" style="padding-top: 10px; padding-bottom:10px;">
-            <div class="nav-left">
-                <a class="nav-item" href="../index.html#sdl"><b>Home</b></a> <a target="_blank" class="nav-item" href="../cv.pdf">My Resume</a>
+    <div id="header">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <a href="../index.html#projects"><img src="../top.png"></a>
+                                                    <hr class="bg-black"/>
+
+                        </div>
+
+                                                
+                    <!-- Nav -->
+                        <nav id="nav">
+
+
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><h2 class="subtitle norwester white">"The Lights' Show"</h2></a></li>
+                                <li><a href="#context" id="context-link" class="skel-layers-ignoreHref">Context</a></li>
+                                <li><a href="#script" id="script-link" class="skel-layers-ignoreHref">Script Writing</a></li>
+                                <li><a href="#music" id="music-link" class="skel-layers-ignoreHref">Music</a></li>
+                                <li><a href="#sound-setup" id="sound-setup-link" class="skel-layers-ignoreHref">Sound Setup</a></li>
+                                <li><a href="#light-setup" id="light-setup-link" class="skel-layers-ignoreHref">Light Setup</a></li>
+                                <li><a href="#conclusion" id="conclusion-link" class="skel-layers-ignoreHref">Conclusion</a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                         <ul class="icons">
+                            <li><a target="_blank" href="https://www.linkedin.com/in/aladin-taleb" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a target="_blank" href="./cv.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
+                            <li><a ref="mailto:aladin.taleb@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+
+                </div>
+
             </div>
 
-            <div class="nav-right  is-hidden-mobile">
-                <a class="nav-item" href="#context">Context</a> <a class="nav-item" href="#script">Script</a> <a class="nav-item" href="#music">Music</a> <a class="nav-item" href="#setup">Setup</a> <a class="nav-item" href="#final-result">Final Result</a>
-            </div>
-        </div>
-    </nav>
+            <div id="main">
 
-    <section class="hero bg-black is-medium" style="padding-top: 50px;">
+            <section id="top" class="hero bg-black is-medium has-bg-image" style="padding-top: 50px; background-image: linear-gradient(rgba(40, 40, 40, 0.4), rgba(40, 40, 40, 1)), url(./sdl/light_patch_2_banner.png);">
         <!-- Hero header: will stick at the top -->
 
-        <div class="hero-body top-image has-bg-image" style="background-image: linear-gradient(rgba(58, 58, 58, 0.9), rgba(58, 58, 58, 0.9)), url(./sdl/light_patch_2_banner.png);">
+        <div class="hero-body">
+ <div class="container">
+        <p><a href="../index.html#projects">Back to Home</a></p>
+      </div>
+      <br>
+
             <div class="container">
                 <h1 class="title white norwester">"The Lights' Show"</h1>
 
                 <h2 class="subtitle white norwester">10 weeks to create a 50 minute-long Light & Music show on the walls of my <span class="orange">university</span>. (2015).</h2>
             </div>
         </div>
-    </section><a class="anchor" id="context"></a>
+    </section>
 
-    <section class="hero is-fullheight">
+
+    <section id="context" class="section bg-black is-medium">
         <div class="hero-body">
-            <div class="container">
-                <h1 class="title norwester">A bit of Context</h1>
+            <div class="container white">
+                <h1 class="title norwester white">A bit of Context</h1>
 
-                <h2 class="subtitle norwester">The Challenge</h2>
+                <h2 class="subtitle norwester white">The Challenge</h2>
 
                 <p><b>Decibels</b> is an association that sets up and controls the light and sound hardware needed for live shows. I had the chance to take part in this group in many different ways: as a <b>secretary</b>, a <b>live sound engineer</b>, and as a <b>studio sound engineer</b>.</p><br>
 
@@ -55,9 +95,9 @@
                 <figure class="image"><img class="image" src="./sdl/concept_banner.png"></figure>
             </div>
         </div>
-    </section><a class="anchor" id="script"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-black">
+    <section id="script" class="hero is-fullheight bg-black">
         <div class="hero-body">
             <div class="container white">
                 <h1 class="title norwester white">Script Writing</h1>
@@ -77,9 +117,9 @@
                 How can a team of 10 people create and organise such a big show in less than 10 weeks ?</h2>
             </div>
         </div>
-    </section><a class="anchor" id="music"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-light-gray">
+    <section id="music" class="hero is-fullheight bg-light-gray">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title norwester">Music Composition</h1>
@@ -113,9 +153,9 @@
                 </div><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216590049&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
             </div>
         </div>
-    </section><a class="anchor" id="setup"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-white">
+    <section id="sound-setup" class="hero is-fullheight bg-white">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title norwester">Sound Setup</h1>
@@ -131,7 +171,7 @@
         </div>
     </section>
 
-    <section class="hero is-fullheight bg-black">
+    <section id="light-setup" class="hero is-fullheight bg-black">
         <div class="hero-body">
             <div class="container white">
                 <h1 class="title norwester white">Light Setup</h1>
@@ -145,9 +185,9 @@
                 <figure class="image"><img class="image" src="./sdl/light_patch_2_banner.png"></figure>
             </div>
         </div>
-    </section><a class="anchor" id="final-result"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-light-gray">
+    <section id="conclusion" class="hero is-fullheight bg-light-gray">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title norwester">Final Result</h1>
@@ -168,5 +208,15 @@
             </div>
         </div>
     </section>
+    </div>
+
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery.scrolly.min.js" type="text/javascript"></script>
+<script src="../js/jquery.scrollzer.min.js" type="text/javascript">
+</script><script src="../js/skel.min.js" type="text/javascript">
+</script><script src="../js/util.js" type="text/javascript">
+</script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../js/main.js" type="text/javascript"></script>
+
 </body>
 </html>

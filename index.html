@@ -6,27 +6,60 @@
 
     <title>Aladin Taleb's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+                    <link rel="stylesheet" type="text/css" href="./css/phantom_main.css">
+
+        <link rel="stylesheet" type="text/css" href="./css/prologue_main.css">
+
     <link rel="stylesheet" type="text/css" href="./css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+            <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
     <script src="./analytics.js" type="text/javascript">
 </script>
 </head>
 
 <body>
-    <nav class="nav has-shadow" style="position: fixed; clip:auto; top:0; left: 0; right: 0;">
-        <div class="container hero-body" style="padding-top: 10px; padding-bottom:10px;">
-            <div class="nav-left">
-                <a class="nav-item" href="#me"><b>About Me</b></a> <a target="_blank" class="nav-item" href="./cv.pdf">My Resume</a>
-            </div>
 
-            <div class="nav-right  is-hidden-mobile">
-                <a class="nav-item" href="#projects">Projects</a> <a class="nav-item" href="#portfolio">Portfolio</a>
-            </div>
-        </div>
-    </nav><a class="anchor" id="me"></a>
+<!-- Header -->
+			<div id="header">
 
-    <section class="hero is-fullheight has-bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./bg.jpg);">
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<img src="./top.png">
+                                                    <hr class="bg-black"/>
+
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#me" id="me-link" class="skel-layers-ignoreHref">About Me</a></li>
+								<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref">Case Studies</a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref">Portfolio</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						 <ul class="icons">
+                            <li><a target="_blank" href="https://www.linkedin.com/in/aladin-taleb" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a target="_blank" href="./cv.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
+                            <li><a ref="mailto:aladin.taleb@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+
+				</div>
+
+			</div>
+
+<div id="main">
+
+  
+
+    <section id="me" class="hero is-fullheight has-bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./bg_2.jpg);">
         <div class="hero-body">
             <div class="container has-text-centered animated fadeIn">
                 <div class="title is-1 white norwester ">
@@ -39,14 +72,17 @@
 
                 <div class="white">
                     <div class="box" style="background-color: rgba(255, 255, 255, 0.2);">
-                        <p class="white norwester">I look for an <span class="orange">end-of-studies internship</span> in<br>
+                        <p class="white norwester">I am looking for an <span class="orange">end-of-studies internship</span> in<br>
                         - UX/UI Prototyping & development for Embedded Devices -<br>
                         From <span class="orange">Feb '17</span> to <span class="orange">Jul '17</span></p>
-                    </div>Here are some interesting projects I had the chance to work on.<br>
-                    (More projects very soon !)<br>
-                    <br>
-                    You can also take a look at my <a target="_blank" href="./cv.pdf">resume</a> and my <a target="_blank" href="https://www.linkedin.com/in/aladin-taleb-23500274?locale=en_US&trk=profile_view_lang_sel_click">LinkedIn</a> page.<br>
-                    <a href="mailto:aladin.taleb@gmail.com">Send me a message</a> if you think we can change the world together !<br>
+                    </div>
+
+                    <ul class="icons">
+                            <li><a target="_blank" href="https://www.linkedin.com/in/aladin-taleb" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a target="_blank" href="./cv.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
+                            <li><a ref="mailto:aladin.taleb@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                    
                 </div>
             </div>
         </div>
@@ -56,15 +92,19 @@
                 <div class="container has-text-centered white animated pulse infinite">
                     <div class="title is-5 white norwester ">
                         Scroll Down !<br>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+
                     </div>
                 </div>
             </div>
         </div>
-    </section><a class="anchor" id="projects"></a>
+    </section>
 
-    <section class="section is-medium bg-light-gray">
+    <section id="projects" class="section is-medium bg-light-gray">
         <div class="container">
-            <h1 class="title norwester">Projects</h1>
+            <h1 class="title norwester">Case Studies</h1>
+
+            <h2 class="subtitle norwester">Some interesting projects I'd like to show you.</h2>
             <hr>
 
             <div class="box has-bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./projects/zikube/zikube_banner.png);">
@@ -73,7 +113,7 @@
                 <h2 class="subtitle norwester white">Musical Instrument for the <span class="orange">disabled</span>. (2016)</h2><a href="./projects/zikube.html">Read more !</a>
                 <hr>
 
-                <div class="columns">
+                <div class="columns is-multiline">
                     <div class="column">
                         <span class="tag is-primary">UX Design</span> <span class="tag is-info">Arduino</span> <span class="tag is-info">Processing</span>
                     </div>
@@ -89,7 +129,7 @@
 
                 <div class="columns">
                     <div class="column">
-                        <span class="tag is-primary">UI Design</span> <span class="tag is-info">Cocoa/Objective-C</span> <span class="tag is-warning">Project Management</span>
+                        <span class="tag is-primary">UI Design</span> <span class="tag is-info">Cocoa/Objective-C</span> <span class="tag is-info">sails.js</span> <span class="tag is-warning">Project Management</span>
                     </div>
                 </div>
             </div>
@@ -107,189 +147,173 @@
                 </div>
             </div>
         </div>
-    </section><a class="anchor" id="portfolio"></a>
+    </section>
 
-    <section class="section is-medium bg-black">
+    
+
+    <section id="portfolio" class="section is-medium bg-black">
         <div class="container">
             <h1 class="title norwester white">Portfolio</h1>
-            <hr>
+            <h2 class="subtitle norwester orange">Other great projects !</h2>
 
-            <div class="box has-top-margin">
-                <h1 class="title norwester">Tech'Active (2016)</h1>
-                <hr>
+            <hr class="bg-light-gray">
 
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/techactive/logo.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/techactive/carte_visite.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/techactive/website_banner.png"></figure>
-                    </div>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">InfiniTweak (2016)</h1>
-                <hr>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/infinitweak/ConnectedPlugins.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/infinitweak/Details.png"></figure>
-                    </div>
-                </div>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/infinitweak/DashboardPatchbayList.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/infinitweak/DashboardTweakSet.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/infinitweak/iPhone-Menu.png"></figure>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">Larsen's Website (2016)</h1>
-                <hr>
-
-                <figure class="image"><img class="image" src="./projects/larsen/banner.png"></figure><br>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/larsen/Accueil-BG.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/larsen/Articles.png"></figure>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">Paul M'emploie (Paul Hires Me) (2016)</h1>
-                <hr>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/paulmemploie/1.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/paulmemploie/2.png"></figure>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">DddLay (2014 - 2015)</h1>
-                <hr>
-
-                <figure class="image"><img class="image" src="./projects/dddlay/dddlay_banner.png"></figure><br>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/dddlay/im2.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/dddlay/im3.png"></figure>
-                    </div>
-                </div>
-
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dlp8W-z3mCw" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">tidy (2014)</h1>
-                <hr>
-
-                <figure class="image"><img class="image" src="./projects/tidy/concept.png"></figure><br>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/tidy/1.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/tidy/2.png"></figure>
-                    </div>
-                </div>
-
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nkK5B0E7SDs" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">nD (2013)</h1>
-                <hr>
-
-                <figure class="image"><img class="image" src="./projects/nd/nd_banner.png"></figure><br>
-
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/nd/2.png"></figure>
-                    </div>
-
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/nd/3.png"></figure>
-                    </div>
-                </div>
-
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UwpdW4fFliQ" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-
-            <div class="box has-top-margin">
-                <h1 class="title norwester">Vestralab (2013)</h1>
-                <hr>
-
-                <figure class="image"><img class="image" src="./projects/vestralab/banner.png"></figure><br>
-
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gUHaaTlsCks" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
+            <h2 class="subtitle norwester white">Software and Website</h2>
             
-            <br />
+            <section class="tiles">
 
-            <div class="box has-top-margin">
-                <h1 class="title norwester">U-Tune (2012)</h1>
-                <hr>
 
-                <div class="columns">
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/utune/1.png"></figure>
-                    </div>
+                                <article class="style_white" id="larsen">
+                                    <span class="image">
+                                        <img src="./projects/larsen/larsen_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/larsen/portfolio.html">
+                                        <h2 class="norwester tile-title">Larsen's Website (2016)</h2>
+                                        <div class="content">
+                                            <p>Webdesign for a Music Association</p>
+                                        </div>
+                                    </a>
+                                </article>
 
-                    <div class="column">
-                        <figure class="image"><img class="image" src="./projects/utune/2.png"></figure>
-                    </div>
-                </div>
+                                 <article class="style_white" id="ease">
+                                    <span class="image">
+                                        <img src="./projects/ease/ease_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/ease/portfolio.html">
+                                        <h2 class="norwester tile-title">EASE (2015)</h2>
+                                        <div class="content">
+                                            <p>Smart Home Solution</p>
+                                        </div>
+                                    </a>
+                                </article>
 
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MkgljigTMqU" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
+                                <article class="style_white" id="dddlay">
+                                    <span class="image">
+                                        <img src="./projects/Dddlay/dddlay_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/dddlay/portfolio.html">
+                                        <h2 class="norwester tile-title">Dddlay (2014-2015)</h2>
+                                        <div class="content">
+                                            <p>Audio Plugin for Newbies</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="style_white" id="nd">
+                                    <span class="image">
+                                        <img src="./projects/nd/nd_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/nd/portfolio.html">
+                                        <h2 class="norwester tile-title">nD (2013)</h2>
+                                        <div class="content">
+                                            <p>Multi-dimensional labyrinth game for iOS</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="style_white" id="utune">
+                                    <span class="image">
+                                        <img src="./projects/utune/utune_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/utune/portfolio.html">
+                                        <h2 class="norwester tile-title">U-Tune (2012)</h2>
+                                        <div class="content">
+                                            <p>Digital Audio Workstation for Newbies</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+
+                               
+
+            </section>
+            <hr class="bg-light-gray">
+
+            <h2 class="subtitle norwester white">Device</h2>
+  
+                        <section class="tiles">
+
+                         <article class="style_white" id="infinitweak">
+                                    <span class="image">
+                                        <img src="./projects/infinitweak/infinitweak_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/infinitweak/portfolio.html">
+                                        <h2 class="norwester tile-title">InfiniTweak (2016 - Present)</h2>
+                                        <div class="content">
+                                            <p>UX/UI of a Connected Pedal Board</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+                        <article class="style_white" id="zikube">
+                                    <span class="image">
+                                        <img src="./projects/zikube/zikube_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/zikube/portfolio.html">
+                                        <h2 class="norwester tile-title">ZiKube (2016)</h2>
+                                        <div class="content">
+                                            <p>Musical Instrument for the Disabled</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                 
+
+                                 <article class="style_white" id="tidy">
+                                    <span class="image">
+                                        <img src="./projects/tidy/tidy_tile.png" alt="" />
+                                    </span>
+<a href="./projects/tidy/portfolio.html">                                        <h2 class="norwester tile-title">tidy (2013)</h2>
+                                        <div class="content">
+                                            <p>Concept of a Device to organize your important objects</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+</section>
+            <hr class="bg-light-gray">
+            <h2 class="subtitle norwester white">Branding</h2>
+
+                        <section class="tiles">
+<article class="style_white" id="techactive">
+                                    <span class="image">
+                                        <img src="./projects/techactive/techactive_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/techactive/portfolio.html">
+
+                                        <h2 class="norwester tile-title">Tech'Active (2016)</h2>
+                                        <div class="content">
+                                            <p>Logo, Business Card and WebDesign for an IT company</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+<article class="style_white" id="vestralab">
+                                    <span class="image">
+                                        <img src="./projects/vestralab/vestralab_tile.png" alt="" />
+                                    </span>
+                                    <a href="./projects/vestralab/portfolio.html">
+
+                                        <h2 class="norwester tile-title">Vestralab (2013)</h2>
+                                        <div class="content">
+                                            <p>Video for a Crowdfunding Website</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+</section>
+
+
+    </div>
+
+    
+    <script src="./js/jquery.min.js" type="text/javascript"></script>
+<script src="./js/jquery.scrolly.min.js" type="text/javascript"></script>
+<script src="./js/jquery.scrollzer.min.js" type="text/javascript">
+</script><script src="./js/skel.min.js" type="text/javascript">
+</script><script src="./js/util.js" type="text/javascript">
+</script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="./js/main.js" type="text/javascript">
+</script>
 </body>
 </html>

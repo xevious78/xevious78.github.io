@@ -6,6 +6,7 @@
 
     <title>ZiKube - Aladin Taleb's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/prologue_main.css">
     <link rel="stylesheet" type="text/css" href="../css/bulma.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="../analytics.js" type="text/javascript">
@@ -13,36 +14,73 @@
 </head>
 
 <body>
-    <nav class="nav has-shadow" style="position: fixed; clip:auto; top:0; left: 0; right: 0;">
-        <div class="container hero-body" style="padding-top: 10px; padding-bottom:10px;">
-            <div class="nav-left">
-                <a class="nav-item" href="../index.html#sdl"><b>Home</b></a> <a target="_blank" class="nav-item" href="../cv.pdf">My Resume</a>
+    
+    <div id="header">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <a href="../index.html#projects"><img src="../top.png"></a>
+                                                    <hr class="bg-black"/>
+
+                        </div>
+
+                                                
+                    <!-- Nav -->
+                        <nav id="nav">
+
+
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><h2 class="subtitle norwester white">ZiKube</h2></a></li>
+                                <li><a href="#context" id="context-link" class="skel-layers-ignoreHref">Context</a></li>
+                                <li><a href="#idea" id="idea-link" class="skel-layers-ignoreHref">Core Idea</a></li>
+                                <li><a href="#concept" id="concept-link" class="skel-layers-ignoreHref">Concept</a></li>
+                                <li><a href="#description" id="description-link" class="skel-layers-ignoreHref">Description</a></li>
+                                <li><a href="#prototype" id="prototype-link" class="skel-layers-ignoreHref">Prototype</a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                         <ul class="icons">
+                            <li><a target="_blank" href="https://www.linkedin.com/in/aladin-taleb" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a target="_blank" href="./cv.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
+                            <li><a ref="mailto:aladin.taleb@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+
+                </div>
+
             </div>
 
-            <div class="nav-right  is-hidden-mobile">
-                <a class="nav-item" href="#context">Context</a> <a class="nav-item" href="#idea">Idea</a> <a class="nav-item" href="#concept">Concept</a> <a class="nav-item" href="#description">Description</a> <a class="nav-item" href="#prototype">Prototype</a>
-            </div>
-        </div>
-    </nav>
+            <div id="main">
 
-    <section class="hero bg-black is-medium" style="padding-top: 50px;">
+    <section id="top" class="hero bg-black is-medium has-bg-image" style="padding-top: 50px; background-image: linear-gradient(rgba(40, 40, 40, 0.4), rgba(40, 40, 40, 1)), url(./zikube/zikube_banner.png);">
         <!-- Hero header: will stick at the top -->
 
-        <div class="hero-body top-image has-bg-image" style="background-image: linear-gradient(rgba(58, 58, 58, 0.9), rgba(58, 58, 58, 0.9)), url(./zikube/zikube_banner.png);">
+        <div class="hero-body">
+ <div class="container">
+        <p><a href="../index.html#projects">Back to Home</a></p>
+      </div>
+      <br>
+
             <div class="container">
                 <h1 class="title white norwester">ZiKube</h1>
 
                 <h2 class="subtitle white norwester">Musical Instrument for the <span class="orange">disabled</span>. (2016)</h2>
             </div>
         </div>
-    </section><a class="anchor" id="context"></a>
+    </section>
 
-    <section class="hero is-fullheight">
+    <section id="context" class="section bg-black">
         <div class="hero-body">
-            <div class="container">
-                <h1 class="title norwester">A bit of Context</h1>
+            <div class="container white">
+                <h1 class="title norwester white">A bit of Context</h1>
 
-                <h2 class="subtitle norwester">The Scope</h2>
+                <h2 class="subtitle norwester white">The Scope</h2>
 
                 <p>I was given 2 months to come up with a brand new concept of device that could help people suffering from the <b>Huntington's Disease</b> interact and communicate with their family and their friends.</p>
                 <hr>
@@ -51,11 +89,15 @@
                 <p>The Huntington's Disease, also called Huntington's Chorea, is a genetic disorder that leads to the death of brain cells, resulting in loss of motor and cognitive abilities. First symptoms, mostly noticeable after the age of 35, include changes in cognition skills, apparition of uncontrollable movements and memory loss.</p>
 
                 <p>Time after time, the disease prevents the patient from being able to communicate properly with the family and the medical staff.</p>
+
+                <hr>
+
+                 <figure class="image boxed"><img class="image" src="./zikube/zikube_concept.png"></figure>
             </div>
         </div>
-    </section><a class="anchor" id="idea"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-black">
+    <section id="idea" class="hero is-fullheight bg-black">
         <div class="hero-body">
             <div class="container white">
                 <h1 class="title norwester white">Music as a Starting Point</h1>
@@ -80,10 +122,10 @@
                 How can we make it suitable for the disabled ?</h2>
             </div>
         </div>
-    </section><a class="anchor" id="concept"></a>
+    </section>
 
 
-    <section class="hero is-fullheight bg-light-gray">
+    <section id="concept" class="hero is-fullheight bg-light-gray">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title norwester">Concept</h1>
@@ -122,13 +164,12 @@
         </div>
     </section>
 
-    </section><a class="anchor" id="description"></a>
+    </section>
 
-    <section class="hero is-fullheight">
+    <section id="description" class="hero is-fullheight">
         <div class="hero-body">
             <div class="container">
-                <figure class="image boxed"><img class="image" src="./zikube/zikube_concept.png"></figure>
-                <hr>
+
 
                 <figure class="image boxed"><img class="image" src="./zikube/zikube_desc.png"></figure>
                 <hr>
@@ -136,9 +177,9 @@
                 <figure class="image boxed"><img class="image" src="./zikube/zikube_proto.png"></figure>
             </div>
         </div>
-    </section><a class="anchor" id="prototype"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-black">
+    <section id="prototype" class="hero is-fullheight bg-black">
         <div class="hero-body">
             <div class="container white">
                 <h1 class="title norwester white">Prototype</h1>
@@ -149,5 +190,16 @@
             </div>
         </div>
     </section>
+    </div>
+
+
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery.scrolly.min.js" type="text/javascript"></script>
+<script src="../js/jquery.scrollzer.min.js" type="text/javascript">
+</script><script src="../js/skel.min.js" type="text/javascript">
+</script><script src="../js/util.js" type="text/javascript">
+</script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../js/main.js" type="text/javascript"></script>
+
 </body>
 </html>

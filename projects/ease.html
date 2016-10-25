@@ -6,6 +6,8 @@
 
     <title>EASE - Aladin Taleb's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../css/prologue_main.css">
+
     <link rel="stylesheet" type="text/css" href="../css/bulma.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="../analytics.js" type="text/javascript">
@@ -13,38 +15,74 @@
 </head>
 
 <body>
-    <nav class="nav has-shadow" style="position: fixed; clip:auto; top:0; left: 0; right: 0;">
-        <div class="container hero-body" style="padding-top: 10px; padding-bottom:10px;">
-            <div class="nav-left">
-                <a class="nav-item" href="../index.html#ease"><b>Home</b></a> <a target="_blank" class="nav-item" href="../cv.pdf">My Resume</a>
+
+    <div id="header">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <div id="logo">
+                            <a href="../index.html#projects"><img src="../top.png"></a>
+                                                    <hr class="bg-black"/>
+
+                        </div>
+
+                                                
+                    <!-- Nav -->
+                        <nav id="nav">
+
+
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><h2 class="subtitle norwester white">EASE</h2></a></li>
+                                <li><a href="#context" id="context-link" class="skel-layers-ignoreHref">Context</a></li>
+                                <li><a href="#analysis" id="analysis-link" class="skel-layers-ignoreHref">Analysis</a></li>
+                                <li><a href="#concept" id="concept-link" class="skel-layers-ignoreHref">Concept</a></li>
+                                <li><a href="#development" id="development-link" class="skel-layers-ignoreHref">Development Phase</a></li>
+                                <li><a href="#prototype" id="prototype-link" class="skel-layers-ignoreHref">Prototype</a></li>
+                                <li><a href="#conclusion" id="conclusion-link" class="skel-layers-ignoreHref">Conclusion</a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                         <ul class="icons">
+                            <li><a target="_blank" href="https://www.linkedin.com/in/aladin-taleb" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a target="_blank" href="./cv.pdf" class="icon fa-file-text"><span class="label">Resume</span></a></li>
+                            <li><a ref="mailto:aladin.taleb@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+
+                </div>
+
             </div>
 
-            <div class="nav-right  is-hidden-mobile">
-                <a class="nav-item" href="#context">Context</a> <a class="nav-item" href="#analysis">Analysis</a> <a class="nav-item" href="#concept">Concept</a> <a class="nav-item" href="#development">Dev</a> <a class="nav-item" href="#final-result">Final Result</a>
-            </div>
-        </div>
-    </nav>
+            <div id="main">
 
-    <section class="hero bg-black is-medium" style="padding-top: 50px;">
+<section id="top" class="hero bg-black is-medium has-bg-image" style="padding-top: 50px; background-image: linear-gradient(rgba(40, 40, 40, 0.4), rgba(40, 40, 40, 1)), url(./ease/ui_banner_3.jpg);">
         <!-- Hero header: will stick at the top -->
 
-        <div class="hero-head">
-            <div class="hero-body top-image has-bg-image" style="background-image: linear-gradient(rgba(58, 58, 58, 0.9), rgba(58, 58, 58, 0.9)), url(./ease/ui_banner_3.jpg);">
-                <div class="container">
-                    <h1 class="title white norwester">EASE</h1>
+        <div class="hero-body">
+ <div class="container">
+        <p><a href="../index.html#projects">Back to Home</a></p>
+      </div>
+      <br>
 
-                    <h2 class="subtitle white norwester">Innovative Smart Home <span class="orange">Solution</span>. (2014-2015)</h2>
-                </div>
+            <div class="container">
+                <h1 class="title white norwester">EASE</h1>
+
+                <h2 class="subtitle white norwester">Innovative Smart Home <span class="orange">Solution</span>. (2014-2015)</h2>
             </div>
         </div>
-    </section><a class="anchor" id="context"></a>
+    </section>
 
-    <section class="hero is-fullheight">
+    <section id="context" class="section bg-black is-medium">
         <div class="hero-body">
-            <div class="container">
-                <h1 class="title norwester">A bit of Context</h1>
+            <div class="container white">
+                <h1 class="title norwester white">A bit of Context</h1>
 
-                <h2 class="subtitle norwester">Atos IT Challenge</h2>
+                <h2 class="subtitle norwester white">Atos IT Challenge</h2>
 
                 <p>The Atos IT Challenge is an annual IT event that gathers students from all over the world. This contest rewards the team with the most innovative and brilliant concept that could solve a current problem using new technologies.</p><br>
 
@@ -56,9 +94,9 @@
                 The team was composed of three Computer Engineer students. I was the <b>Lead Developer</b> and <b>Lead Designer</b> so I mainly worked on the <b>iOS App Design & Code</b> but I also contributed to the Architecture and the Development of the <b>web server</b>.
             </div>
         </div>
-    </section><a class="anchor" id="analysis"></a>
+    </section>
 
-    <section class="section bg-light-gray">
+    <section id="analysis" class="section bg-light-gray">
         <div class="container">
             <h1 class="title norwester">Analysis</h1>
             <hr>
@@ -152,9 +190,9 @@
                 <figure class="image"><img src="./ease/goal.png"></figure>
             </div>
         </div>
-    </section><a class="anchor" id="concept"></a>
+    </section>
 
-    <section class="section bg-light-gray">
+    <section id="concept" class="section bg-light-gray">
         <div class="container">
             <h1 class="title norwester">Concept</h1>
             <hr>
@@ -226,9 +264,9 @@
                 <h2 class="subtitle norwester white">We had <span class="orange">3 months</span> to develop of working Proof of Concept.</h2>
             </div>
         </div>
-    </section><a class="anchor" id="development"></a>
+    </section>
 
-    <section class="section bg-light-gray">
+    <section id="development" class="section bg-light-gray">
         <div class="container">
             <h1 class="title norwester">Development</h1>
             <hr>
@@ -279,7 +317,7 @@
         </div>
     </section>
 
-    <section id="development-conclusion" class="hero is-fullheight">
+    <section id="prototype" class="hero is-fullheight">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title norwester">Prototype</h1>
@@ -301,9 +339,9 @@
                 </div>
             </div>
         </div>
-    </section><a class="anchor" id="final-result"></a>
+    </section>
 
-    <section class="hero is-fullheight bg-black">
+    <section id="conclusion" class="hero is-fullheight bg-black">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title norwester white">We presented EASE in front of <span class="orange">Atos' representatives</span>.</h1>
@@ -337,5 +375,15 @@
             </div>
         </div>
     </section>
+    </div>
+
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery.scrolly.min.js" type="text/javascript"></script>
+<script src="../js/jquery.scrollzer.min.js" type="text/javascript">
+</script><script src="../js/skel.min.js" type="text/javascript">
+</script><script src="../js/util.js" type="text/javascript">
+</script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../js/main.js" type="text/javascript"></script>
+
 </body>
 </html>
